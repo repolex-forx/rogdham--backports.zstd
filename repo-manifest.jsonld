@@ -8,8 +8,9 @@
     {
       "@id": "https://repolex.ai/r/rogdham/backports.zstd/commit/2372ea098b7b87430293c8344888e01ad3d1d04d",
       "git:hexsha": "2372ea098b7b87430293c8344888e01ad3d1d04d",
-      "repolex:parseStatus": "ast_complete",
-      "git:tagName": "v1.8.0"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "v1.8.0",
+      "repolex:parsedAt": "2026-11-06T02:41:45.037128+00:00"
     },
     {
       "@id": "https://repolex.ai/r/rogdham/backports.zstd/commit/b5184df5166d266588bc5cfba322f58edecbcf0a",
