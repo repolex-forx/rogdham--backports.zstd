@@ -3,6 +3,11 @@
   "repo": "backports.zstd",
   "versions": [
     {
+      "commit": "b72904873f24c9c0bcf828d30aa74be880730444",
+      "tag": "v1.3.0",
+      "parsed_at": "2026-11-22T07:14:46.469867+00:00"
+    },
+    {
       "commit": "2372ea098b7b87430293c8344888e01ad3d1d04d",
       "tag": "v1.8.0",
       "parsed_at": "2026-11-06T02:41:45.037692+00:00"
