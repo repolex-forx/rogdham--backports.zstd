@@ -1,0 +1,7 @@
+[2026-11-22T06:30:28Z] === AST ITERATION 1 START | repo=rogdham/backports.zstd sha=b7290487 ===
+[2026-11-22T06:30:28Z] [iter=1] PHASE START: ast repo=rogdham/backports.zstd sha=b7290487
+[2026-11-22T06:30:28Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T06:33:06Z] [iter=1] AST chunks built count=1 triples=1353191
+[2026-11-22T06:33:06Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/b72904873f24c9c0bcf828d30aa74be880730444/.complete
+[2026-11-22T06:33:06Z] [iter=1] PHASE END: ast elapsed_s=158 elapsed_min=2.6
+[2026-11-22T06:33:06Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
