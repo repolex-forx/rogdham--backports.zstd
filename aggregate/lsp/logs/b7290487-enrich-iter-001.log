@@ -1,0 +1,31 @@
+[2026-11-22T06:34:42Z] === ENRICH ITERATION 1 START | repo=rogdham/backports.zstd sha=b7290487 ===
+[2026-11-22T06:34:42Z] [iter=1] PHASE START: enrich repo=rogdham/backports.zstd sha=b7290487 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b7290487-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b72904873f24c9c0bcf828d30aa74be880730444.nq.gz
+[2026-11-22T06:34:42Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-22T06:34:59Z] [iter=1] AST store loaded triples=1353189 load_secs=16 mem_mb=920 MB
+[2026-11-22T06:34:59Z] [iter=1] Step 2: Finding LSP targets mem_mb=920 MB
+[2026-11-22T06:35:02Z] [iter=1] LSP targets found call_sites=11429 imports=454 extends=225 implements=0 secs=3
+[2026-11-22T06:35:05Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=920 MB
+[2026-11-22T06:35:10Z] [iter=1] Position index built positions=90331 nodes_with_types=115593 secs=5 mem_mb=920 MB
+[2026-11-22T06:35:10Z] [iter=1] Step 3: Starting LSP resolution mem_mb=920 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T06:35:10Z] [iter=1] Resolving target type target_type=call_site count=11429
+[2026-11-22T06:35:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=1 resolved=84 errors=0 current=src/c/compression_zstd/clinic/_zstdmodule.c.h
+[2026-11-22T06:36:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=4 resolved=179 errors=0 current=src/c/compat/backports_zstd_edits.h
+[2026-11-22T06:37:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.4 files_done=6 resolved=285 errors=0 current=src/c/compression_zstd/clinic/decompressor.c.h
+[2026-11-22T06:40:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.1 files_done=13 resolved=1042 errors=0 current=tests/test/support/__init__.py
+[2026-11-22T06:41:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.2 files_done=14 resolved=1648 errors=0 current=tests/test/test_zipfile/test_core.py
+[2026-11-22T06:43:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=15 resolved=2991 errors=0 current=tests/test/test_zipfile/_path/test_path.py
+[2026-11-22T06:48:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.5 files_done=17 resolved=4678 errors=0 current=tests/test/test_zstd.py
+[2026-11-22T06:50:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=19 resolved=6308 errors=0 current=tests/test/archiver_tests.py
+[2026-11-22T06:51:15Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.5 files_done=22 resolved=6622 errors=0 current=tests/test_integration.py
+[2026-11-22T06:51:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.1 files_done=25 resolved=6806 errors=0 current=src/python/backports/zstd/_shutil.py
+[2026-11-22T06:52:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=30 resolved=7025 errors=0 current=tests/test/test_zipfile/_path/test_complexity.py
+[2026-11-22T06:52:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.3 files_done=38 resolved=7281 errors=0 current=tests/test/support/threading_helper.py
+[2026-11-22T06:53:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=18.8 files_done=47 resolved=7475 errors=0 current=src/python/backports/zstd/tarfile.pyi
+[2026-11-22T06:53:39Z] [iter=1] Target type resolved target_type=call_site resolved=7486 errors=14 secs=1109 mem_mb=920 MB
+[2026-11-22T06:53:39Z] [iter=1] Resolving target type target_type=import_statement count=454
+[2026-11-22T06:53:46Z] [iter=1] Target type resolved target_type=import_statement resolved=377 errors=0 secs=7 mem_mb=920 MB
+[2026-11-22T06:53:46Z] [iter=1] Resolving target type target_type=extends_clause count=225
+[2026-11-22T06:53:49Z] [iter=1] Target type resolved target_type=extends_clause resolved=225 errors=0 secs=3 mem_mb=920 MB
+[2026-11-22T07:12:10Z] [iter=1] Step 5: Writing final enrichment file triples=103551
+[2026-11-22T07:12:11Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b72904873f24c9c0bcf828d30aa74be880730444.nq.gz size_kb=2066
+[2026-11-22T07:12:11Z] [iter=1] PHASE END: enrich elapsed_s=2248 elapsed_min=37.5 total_triples=103551
